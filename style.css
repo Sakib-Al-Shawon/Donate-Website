@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.top {
+.first {
     height: 700px;
     background-image: url(images/donation6.jpg);
     background-repeat: no-repeat;
@@ -26,6 +26,58 @@ body {
 }
 
 .top-contain a {
+    text-decoration: none;
+    color: azure;
+    background-image: linear-gradient(red, tomato);
+    padding: 18px;
+    border-radius: 4px;
+    font-family: serif;
+}
+
+.second {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.donate-contain {
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.money-contain {
+    display: flex;
+    margin-left: 35%;
+}
+
+.normal-money {
+    background-color: rgb(226, 223, 223);
+    height: 50px;
+    width: 100px;
+    color: rgb(69, 64, 64);
+    padding-top: 30px;
+    margin: 0px 10px;
+}
+
+.color-money {
+    background-color: rgb(241, 219, 215);
+    height: 50px;
+    width: 100px;
+    color: rgb(232, 74, 46);
+    padding-top: 30px;
+    margin: 0px 10px;
+    border: 1px solid red;
+}
+
+.another-money-contain {
+    margin: 40px 0px;
+}
+
+#input-field {
+    width: 300px;
+    padding: 10px 0px 5px 140px;
+}
+
+#money-button {
     text-decoration: none;
     color: azure;
     background-image: linear-gradient(red, tomato);
