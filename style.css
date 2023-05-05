@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.top {
+    height: 700px;
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-contain {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.top-contain h1 {
+    color: azure;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.top-contain p {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.top-contain a {
+    text-decoration: none;
+    color: azure;
+    background-image: linear-gradient(red, tomato);
+    padding: 18px;
+    border-radius: 4px;
+    font-family: serif;
+}
