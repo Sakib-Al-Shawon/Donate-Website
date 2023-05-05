@@ -77,7 +77,7 @@ body {
     padding: 10px 0px 5px 140px;
 }
 
-#money-button {
+.button {
     text-decoration: none;
     color: azure;
     background-image: linear-gradient(red, tomato);
@@ -117,4 +117,22 @@ body {
     padding: 30px 0px 0px 12px;
     margin: 0px 10px;
     text-align: left;
+}
+
+.third {
+    display: flex;
+    margin: 5% 20%;
+}
+
+.third h1 {
+    font-size: 40px;
+}
+
+#right {
+    margin-left: 25px;
+}
+
+.final {
+    margin: 20px auto;
+
 }
